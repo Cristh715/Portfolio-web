@@ -1,7 +1,32 @@
-*{
+html{
     font-family: 'Roboto', sans-serif;
+    color: rgb(27, 27, 27);
+    /*Variables css*/
+    --primary-color: rgb(30, 159, 239);
+    margin: 0;
+    padding: 15px 30px;
+    scroll-behavior: smooth;
 }
-h1{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.nav-items{
+    font-size: 18px;
+}
+.list{
+    list-style: none;
+}
+.project1{
+    background-color: var(--primary-color);
+    color: (255,255,255);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;   
+}
+.fa-solid{
+    color: var(--primary-color);
 }
