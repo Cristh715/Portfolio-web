@@ -1,24 +1,84 @@
+:root{
+    /*Variables css*/
+    --primary-color: #0794ff;
+    --secondary-color: #96a1fa;
+    --white-color: #fff;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
     color: rgb(27, 27, 27);
-    /*Variables css*/
-    --primary-color: rgb(30, 159, 239);
     margin: 0;
-    padding: 15px 30px;
     scroll-behavior: smooth;
 }
 
-a{
+header{
+    position: sticky;
+    top: 0; 
+}
+
+main{
+    padding: 15px 30px;
+}
+
+.icon{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    padding: 15px 40px;
+    background-color: var(--primary-color);
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-items{
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin: 20px;
+    color: white;
+    transition: all 0.2s;
+}
+
+.nav-items:hover{
+    background-color: var(--white-color);
     color: var(--primary-color);
 }
-.nav-items{
+
+
+.div-flex{
+    flex-wrap: wrap;
+}
+
+
+/* 
+
+header{
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 0px 20px;
+}
+
+.nav-bar{
+    text-decoration: none;
+    font-weight: bold;
     font-size: 18px;
+    padding: 20px;
+    color: white;
+    transition: all 0.2s;
 }
-.list{
-    list-style: none;
-}
+
+
 .project1{
     background-color: var(--primary-color);
     color: (255,255,255);
@@ -26,7 +86,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     width: 200px;   
-}
+} */
 .fa-solid{
     color: var(--primary-color);
 }
